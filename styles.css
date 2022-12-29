@@ -1,8 +1,9 @@
 body{
-  padding-top: 4%;
+  padding-top: 15vh;
   background: rgba(236, 241, 241, 0.959);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   
 }
@@ -53,6 +54,7 @@ font-family: sans-serif;
   background-color:rgba(255, 254, 242, 0.1);
   width: 100%;
    padding: 12px 20px;
+   padding-inline-start: 10px;
    margin: 8px 0;
    box-sizing: border-box;
    border: 2px solid grey;
@@ -80,11 +82,12 @@ font-family: sans-serif;
 .forgot-email
 {
   
-     color: #1b7ced;
+     color: #4885ed;
     font-weight: bold;
     margin-top: 25px;
     text-align: left;
     margin-bottom: 8%;
+    text-anchor: end;
 }
 
 .learn-more{
@@ -95,19 +98,27 @@ font-family: sans-serif;
 
 .create-account
 {
-  background-color: #1b7ced;
-  border: 1px solid #1b7ced;
+  background-color: #4885ed;
+  border: 1px solid #4885ed;
   border-radius: 5px;  
   height: 30px;
+  width: 110px;
   color: white;
+  cursor: pointer;
 }
 
 .next{
-  background-color: #1b7ced;
-  border: 1px solid #1b7ced;
+  background-color: #4885ed;
+  border: 1px solid #4885ed;
   border-radius: 5px;
   margin-left: 150px;
-  width: 70px;
+  width: 110px;
   height: 30px;
   color: white;
+  cursor: pointer;
+}
+
+.next:hover, .create-account:hover {
+  background: white;
+  color: #4885ed;  
 }
